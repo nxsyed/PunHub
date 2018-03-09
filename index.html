@@ -6,20 +6,25 @@
     <title>PunHub Demo</title>
     
    	<!-- css -->
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     
     
   </head>
 
-  <body>
-    <div class='container-fluid' >
-      <div class='row h-100'>
+  <body class="bg-info alignment">
+    <h1 class="text-white"> A Simple Realtime Demo of Crypto Currency Prices using Pubnub</h1>
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">Crypto Chart</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Real-time data for $XVG, $TRON, $ZIL and $DGB </h6>
         	<div class='row chart' id='chart'>
         	</div>
-        </div>
+        <a href="https://medium.com/@nxsyed/the-quickest-way-to-have-real-time-analytics-using-pubnub-eon-f7f9a11d9ea2" class="card-link">View the Article</a>
+        <a href="https://github.com/nxsyed/PunHub" class="card-link">View on Github</a>
       </div>
-      
     </div>
+    <p class="text-white">Created by <a href="https://www.linkedin.com/in/nxsyed/">Syed Ahmed</a></p>
     
     <!-- PubNub Eon -->
     <script type="text/javascript" src="//pubnub.github.io/eon/v/eon/1.0.0/eon.js"></script>
