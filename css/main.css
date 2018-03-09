@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    grid: display;
+    grid-template-coloumns: 1fr 1fr;
+}
+ .map {
+    width: inherit;
+    height: inherit;
+ }
